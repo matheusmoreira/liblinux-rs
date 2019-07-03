@@ -1,3 +1,4 @@
+#[inline]
 pub unsafe fn system_call_0(number: usize) -> usize {
     let mut return_value;
 
@@ -11,6 +12,7 @@ pub unsafe fn system_call_0(number: usize) -> usize {
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_1(number: usize, _1: usize) -> usize {
     let mut return_value;
 
@@ -24,6 +26,7 @@ pub unsafe fn system_call_1(number: usize, _1: usize) -> usize {
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_2(number: usize, _1: usize, _2: usize) -> usize {
     let mut return_value;
 
@@ -37,6 +40,7 @@ pub unsafe fn system_call_2(number: usize, _1: usize, _2: usize) -> usize {
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_3(number: usize, _1: usize, _2: usize, _3: usize) -> usize {
     let mut return_value;
 
@@ -50,6 +54,7 @@ pub unsafe fn system_call_3(number: usize, _1: usize, _2: usize, _3: usize) -> u
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_4(number: usize, _1: usize, _2: usize, _3: usize, _4: usize) -> usize {
     let mut return_value;
 
@@ -63,6 +68,7 @@ pub unsafe fn system_call_4(number: usize, _1: usize, _2: usize, _3: usize, _4: 
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_5(number: usize, _1: usize, _2: usize, _3: usize, _4: usize, _5: usize) -> usize {
     let mut return_value;
 
@@ -76,6 +82,7 @@ pub unsafe fn system_call_5(number: usize, _1: usize, _2: usize, _3: usize, _4: 
     return_value
 }
 
+#[inline]
 pub unsafe fn system_call_6(number: usize, _1: usize, _2: usize, _3: usize, _4: usize, _5: usize, _6: usize) -> usize {
     let mut return_value;
 
