@@ -1,7 +1,7 @@
 #![feature(asm)]
 
 #[cfg(target_arch = "x86_64")]
-pub fn system_call(number : usize, _1 : usize, _2 : usize, _3 : usize, _4 : usize, _5 : usize, _6 : usize) -> usize {
+pub fn system_call(number: usize, _1: usize, _2: usize, _3: usize, _4: usize, _5: usize, _6: usize) -> usize {
     let mut return_value;
 
     unsafe {
