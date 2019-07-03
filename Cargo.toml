@@ -9,4 +9,7 @@ keywords = ["linux", "syscall"]
 categories = ["os"]
 license = "MIT"
 
+[lib]
+name = "linux"
+
 [dependencies]
