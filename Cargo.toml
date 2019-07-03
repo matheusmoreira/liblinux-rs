@@ -1,0 +1,12 @@
+[package]
+name = "liblinux"
+version = "0.1.0"
+description = "Linux system calls"
+authors = ["Matheus Afonso Martins Moreira <matheus.a.m.moreira@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/matheusmoreira/liblinux-rs"
+keywords = ["linux", "syscall"]
+categories = ["os"]
+license = "MIT"
+
+[dependencies]
