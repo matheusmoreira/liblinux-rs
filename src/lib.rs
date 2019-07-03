@@ -99,6 +99,7 @@ pub unsafe fn system_call_6(number: usize, _1: usize, _2: usize, _3: usize, _4: 
     return_value
 }
 
+#[macro_export]
 macro_rules! system_call {
     ($number:expr) => (
         system_call_0($number);
