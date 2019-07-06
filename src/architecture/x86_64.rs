@@ -1,3 +1,11 @@
+pub enum NR {
+    read = 0,
+    write = 1,
+    open = 2,
+    close = 3,
+    exit = 60,
+}
+
 #[inline]
 pub unsafe fn system_call_0(number: usize) -> usize {
     let mut return_value;
