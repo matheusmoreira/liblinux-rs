@@ -1,3 +1,4 @@
+#[allow(non_camel_case_types)] // asm/unistd_64.h: __NR_name number
 pub enum NR {
     read = 0,
     write = 1,
